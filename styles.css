@@ -6,6 +6,8 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(219, 199, 175);
+    left: 0;
+    top: 0;
     }
 
 a {
