@@ -72,15 +72,15 @@ for (let i=1;i<8;i++){
 for (let i=1;i<8;i++){
     if (employees[i]["Level"]=="Senior"){
         let sal= getRndInteger(1500, 2000)
-        let netSalary=sal-(sal*0.075);
+        let netSalary=Math.round(sal-(sal*0.075));
         employees[i]["Salary"]=netSalary
     }else if (employees[i]["Level"]=="Mid-Senior"){
         let sal= getRndInteger(1000,1500)
-        let netSalary=sal-(sal*0.075);
+        let netSalary=Math.round(sal-(sal*0.075));
         employees[i]["Salary"]=netSalary
     }else{
         let sal= getRndInteger(500,1000)
-        let netSalary=sal-(sal*0.075);
+        let netSalary=Math.round(sal-(sal*0.075));
         employees[i]["Salary"]=netSalary
     }
     //  console.log(employees[i]["Salary"]) 
