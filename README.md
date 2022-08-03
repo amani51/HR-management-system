@@ -3,3 +3,5 @@ A human resources management system (HRMS) or Human Resources Information System
 
 A human resources management system ensures everyday human resources processes are manageable and easy to access. The field merges human resources as a discipline and, in particular, its basic HR activities and processes with the information technology field. This software category is analogous to how data processing systems evolved into the standardized routines and packages of enterprise resource planning (ERP) software. On the whole, these ERP systems have their origin from software that integrates information from different applications into one universal database. The linkage of financial and human resource modules through one database creates the distinction that separates an HRMS, HRIS, or HCM system from a generic ERP solution.
 [REFRENCE](https://en.wikipedia.org/wiki/Human_resource_management_system)
+
+## Add images for all employees 
