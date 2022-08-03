@@ -5,3 +5,8 @@ A human resources management system ensures everyday human resources processes a
 [REFRENCE](https://en.wikipedia.org/wiki/Human_resource_management_system)
 
 ## Add images for all employees 
+
+## DAY09
+- Create a new branch "constructors"
+- Replace all of object literals for the "HR-management-system" with a single constructor.
+- Used render method to render each employee name, department, and employee salary using document.write()
