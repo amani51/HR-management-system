@@ -152,11 +152,11 @@ document.write(`<table style="margin:75px; font-size:30px;width:50%">
 document.write(`<table style="margin:75px; font-size:30px;width:50%">
   <tr>
   <th style="margin:75px; font-size:30px; text-align: center;color:rgb(141, 85, 21);background-color:rgb(219, 199, 175)">Employee Name:</th>
-  <th style="margin:75px; font-size:30px;text-align: center;color:rgb(211, 123, 22);background-color:rgb(233, 223, 212)""> ${secondEmployee.fullName}</th>
+  <th style="margin:75px; font-size:30px;text-align: center;color:rgb(211, 123, 22);background-color:rgb(233, 223, 212)""> ${seventhEmployee.fullName}</th>
 </tr>
 <tr>
   <td style="margin:75px; font-size:30px; text-align: center;color:rgb(141, 85, 21);rgb(196, 188, 180)">Department:</td>
-  <td style="margin:75px; font-size:30px; text-align: center;color:rgb(211, 123, 22);rgb(196, 188, 180)">  ${secondEmployee.department}</td>
+  <td style="margin:75px; font-size:30px; text-align: center;color:rgb(211, 123, 22);rgb(196, 188, 180)">  ${seventhEmployee.department}</td>
 </tr>
 <tr>
   <td style="margin:75px; font-size:30px; text-align: center;color:rgb(141, 85, 21);background-color:rgb(219, 199, 175)">Salary: </td>
