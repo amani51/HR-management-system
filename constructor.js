@@ -54,15 +54,15 @@ seventhEmployee.netSalary()
 
 console.log(allEmployees)
 // render method
-function render(){
-    document.write(`<div style="margin:75px; font-size:20px"><p>Employee Name: ${firstEmployee.fullName} </p><p> Department:  ${firstEmployee.department}</p><p> Salary: ${firstEmployee.Salary}</p></brk></div>`);
-    document.write(`<div style="margin:70px"><p>Employee Name: ${secondEmployee.fullName} </p><p>Department:  ${secondEmployee.department} </p><p>Salary: ${secondEmployee.Salary}</p></div>`);
-    document.write(`<div style="margin:70px"><p>Employee Name: ${thirdEmployee.fullName} </p><p>Department:  ${thirdEmployee.department} </p><p>Salary: ${thirdEmployee.Salary}</p></div>`);
-    document.write(`<div style="margin:70px"><p>Employee Name: ${fourthEmployee.fullName} </p><p>Department:  ${fourthEmployee.department} </p><p>Salary: ${fourthEmployee.Salary}</p></div>`);
-    document.write(`<div style="margin:70px"><p>Employee Name: ${fifthEmployee.fullName} </p><p>Department:  ${fifthEmployee.department} </p><p>Salary: ${fifthEmployee.Salary}</p></div>`);
-    document.write(`<div style="margin:70px"><p>Employee Name: ${sixthEmployee.fullName}</p><p> Department:  ${sixthEmployee.department} </p><p>Salary: ${sixthEmployee.Salary}</p></div>`);
-    document.write(`<div style="margin:70px"><p>Employee Name: ${seventhEmployee.fullName}</p><p> Department:  ${seventhEmployee.department}</p><p> Salary: ${seventhEmployee.Salary}</p></div>`);
-}
+// function render(){
+//     document.write(`<div style="margin:75px; font-size:20px"><p>Employee Name: ${firstEmployee.fullName} </p><p> Department:  ${firstEmployee.department}</p><p> Salary: ${firstEmployee.Salary}</p></brk></div>`);
+//     document.write(`<div style="margin:70px"><p>Employee Name: ${secondEmployee.fullName} </p><p>Department:  ${secondEmployee.department} </p><p>Salary: ${secondEmployee.Salary}</p></div>`);
+//     document.write(`<div style="margin:70px"><p>Employee Name: ${thirdEmployee.fullName} </p><p>Department:  ${thirdEmployee.department} </p><p>Salary: ${thirdEmployee.Salary}</p></div>`);
+//     document.write(`<div style="margin:70px"><p>Employee Name: ${fourthEmployee.fullName} </p><p>Department:  ${fourthEmployee.department} </p><p>Salary: ${fourthEmployee.Salary}</p></div>`);
+//     document.write(`<div style="margin:70px"><p>Employee Name: ${fifthEmployee.fullName} </p><p>Department:  ${fifthEmployee.department} </p><p>Salary: ${fifthEmployee.Salary}</p></div>`);
+//     document.write(`<div style="margin:70px"><p>Employee Name: ${sixthEmployee.fullName}</p><p> Department:  ${sixthEmployee.department} </p><p>Salary: ${sixthEmployee.Salary}</p></div>`);
+//     document.write(`<div style="margin:70px"><p>Employee Name: ${seventhEmployee.fullName}</p><p> Department:  ${seventhEmployee.department}</p><p> Salary: ${seventhEmployee.Salary}</p></div>`);
+// }
 function render(){
 
 document.write(`<table style="margin:75px; font-size:30px;width:50%">
