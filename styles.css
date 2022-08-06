@@ -1,3 +1,6 @@
+body{
+    background-color:rgb(240, 232, 217) ;
+}
 header {
     font-weight: bold;
     position: fixed;
@@ -34,8 +37,9 @@ a {
     position: relative;
 }
 
+
 .footer {
-    position: fixed;
+position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -43,6 +47,8 @@ a {
     justify-content: space-between;
     color: white;
     text-align: center;
+    margin-top: 70px;
+    height: 40px;
     
  }
 .footer p{
@@ -63,4 +69,159 @@ a {
 .fa:hover {
     opacity: 0.7;
 }
+
+.accounting{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(211, 123, 22);
+        justify-content: space-between;
+        color: white;
+        text-align: center;
+        height: 40px;
+}
+.accounting p{
+    float:center; 
+    margin: 10px 0px; 
+    position: center 
+    
+}
+/* senior level*/
+.sen{
+    margin:85px 100px;
+    justify-content:space-between ;
+    display: inline-block;
+    border: 2px  rgba(141, 85, 21,0.6);
+    float :left;
+    width: 250px;
+    border-radius: 20px ;
+    background-color: rgba(141, 85, 21, 0.5);
+    
+    
+}
+.sen img{
+    width: 200px;
+    margin:23px ;
+    border: 1px groove rgba(196, 188, 180, .7);;
+    border-radius: 20px ;
+    background-color: rgba(196, 188, 180, .7);
+}
+.sen p{
+    width:225px;
+    text-align: center;
+    display: block;
+    border: 1px   ;
+    margin-left: 10px;
+    line-height: 25px;
+    border-radius: 20px ;
+    background-color: rgba(141, 85, 21, 0.15);
+    color: rgb(141, 85, 21);
+}
+.sen img:hover{
+    width: 210px;
+    margin-right:10px ;
+    cursor:pointer;
+
+}
+.sen p:hover{
+    width: 210px;
+    margin-right:10px ;
+    color: rgba(141, 85, 21,.8);
+    cursor:pointer;
+
+}
+
+/* mid-senior level*/
+ .mid{
+    margin:85px 100px;
+    justify-content:space-between ;
+    display: inline-block;
+    border: 2px  rgba(141, 85, 21,0.6);
+    float :left;
+    width: 250px;
+    border-radius: 20px ;
+    background-color: rgba(141, 85, 21, 0.3);
+
+    
+}
+.mid img{
+    width: 200px;
+    margin:23px ;
+    border: 1px groove rgba(196, 188, 180, .7);;
+    border-radius: 20px ;
+    background-color: rgba(196, 188, 180, .7);
+}
+.mid p{
+    width:225px;
+    text-align: center;
+    display: block;
+    border: 1px   ;
+    margin-left: 10px;
+    line-height: 25px;
+    border-radius: 20px ;
+    background-color: rgba(201, 169, 137, 0.4);
+    color: rgb(141, 85, 21);
+
+}
+.mid img:hover{
+    width: 210px;
+    margin-right:10px ;
+    cursor:pointer;
+
+}
+.mid p:hover{
+    width: 210px;
+    margin-right:10px ;
+    color: rgba(141, 85, 21,.8);
+    cursor:pointer;
+
+}
+
+/* junior level*/
+
+.jun{
+    margin:85px 80px;
+    justify-content:space-between ;
+    display: inline-block;
+    border: 2px  rgba(141, 85, 21,0.8);
+    float :left;
+    width: 250px;
+    border-radius: 20px ;
+    background-color: rgba(141, 85, 21, 0.18);
+    
+
+}
+.jun img{
+    width: 200px;
+    margin:23px ;
+    border: 1px groove rgba(196, 188, 180, .7);;
+    border-radius: 20px ;
+    background-color: rgba(196, 188, 180, .7);
+}
+.jun p{
+    width:225px;
+    text-align: center;
+    display: block;
+    border: 1px   ;
+    margin-left: 10px;
+    line-height: 25px;
+    border-radius: 20px ;
+    background-color: rgba(197, 172, 146, 0.3);
+    color: rgb(172, 104, 27);
+} 
+.jun img:hover{
+    width: 210px;
+    margin-right:10px ;
+    cursor:pointer;
+
+}
+.jun p:hover{
+    width: 210px;
+    margin-right:10px ;
+    color: rgba(141, 85, 21,.8);
+    cursor:pointer;
+
+}
+
 
