@@ -10,3 +10,9 @@ A human resources management system ensures everyday human resources processes a
 - Create a new branch "constructors"
 - Replace all of object literals for the "HR-management-system" with a single constructor.
 - Used render method to render each employee name, department, and employee salary using document.write()
+
+## DAY10
+- Create a new branch "dom"
+- refactor the render prototype method to render each employee's information in a separate card on the home page.
+- Add backgrounds, font colors,, and many additional styles.
+- Separate the employees' cards by their department

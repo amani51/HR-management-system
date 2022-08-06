@@ -88,26 +88,71 @@ position: fixed;
     
 }
 /* senior level*/
-.sen{
-    margin:85px 100px;
+.adm{
+    margin:85px 40px;
     justify-content:space-between ;
     display: inline-block;
     border: 2px  rgba(141, 85, 21,0.6);
     float :left;
     width: 250px;
     border-radius: 20px ;
-    background-color: rgba(141, 85, 21, 0.5);
+    background-color: rgba(141, 85, 21, 0.6);
     
     
 }
-.sen img{
+.adm img{
     width: 200px;
     margin:23px ;
-    border: 1px groove rgba(196, 188, 180, .7);;
+    border: 1px groove rgba(196, 188, 180, .7);
     border-radius: 20px ;
     background-color: rgba(196, 188, 180, .7);
 }
-.sen p{
+.adm p{
+    width:225px;
+    text-align: center;
+    display: block;
+    border: 1px   ;
+    margin-left: 10px;
+    line-height: 25px;
+    border-radius: 20px ;
+    background-color: rgba(141, 85, 21, 0.15);
+    color:  rgb(109, 65, 14);
+}
+.adm img:hover{
+    width: 210px;
+    margin-right:10px ;
+    cursor:pointer;
+
+}
+.adm p:hover{
+    width: 210px;
+    margin-right:10px ;
+    color: rgba(141, 85, 21,.8);
+    cursor:pointer;
+
+}
+
+/* mid-senior level*/
+ .fin{
+    margin:85px 40px;
+    justify-content:space-between ;
+    display: inline-block;
+    border: 2px  rgba(141, 85, 21,0.6);
+    float :left;
+    width: 250px;
+    border-radius: 20px ;
+    background-color: rgba(141, 85, 21, 0.4);
+
+    
+}
+.fin img{
+    width: 200px;
+    margin:23px ;
+    border: 1px  rgba(196, 188, 180, .7);;
+    border-radius: 20px ;
+    background-color: rgba(196, 188, 180, .7);
+}
+.fin p{
     width:225px;
     text-align: center;
     display: block;
@@ -117,60 +162,15 @@ position: fixed;
     border-radius: 20px ;
     background-color: rgba(141, 85, 21, 0.15);
     color: rgb(141, 85, 21);
+
 }
-.sen img:hover{
+.fin img:hover{
     width: 210px;
     margin-right:10px ;
     cursor:pointer;
 
 }
-.sen p:hover{
-    width: 210px;
-    margin-right:10px ;
-    color: rgba(141, 85, 21,.8);
-    cursor:pointer;
-
-}
-
-/* mid-senior level*/
- .mid{
-    margin:85px 100px;
-    justify-content:space-between ;
-    display: inline-block;
-    border: 2px  rgba(141, 85, 21,0.6);
-    float :left;
-    width: 250px;
-    border-radius: 20px ;
-    background-color: rgba(141, 85, 21, 0.3);
-
-    
-}
-.mid img{
-    width: 200px;
-    margin:23px ;
-    border: 1px groove rgba(196, 188, 180, .7);;
-    border-radius: 20px ;
-    background-color: rgba(196, 188, 180, .7);
-}
-.mid p{
-    width:225px;
-    text-align: center;
-    display: block;
-    border: 1px   ;
-    margin-left: 10px;
-    line-height: 25px;
-    border-radius: 20px ;
-    background-color: rgba(201, 169, 137, 0.4);
-    color: rgb(141, 85, 21);
-
-}
-.mid img:hover{
-    width: 210px;
-    margin-right:10px ;
-    cursor:pointer;
-
-}
-.mid p:hover{
+.fin p:hover{
     width: 210px;
     margin-right:10px ;
     color: rgba(141, 85, 21,.8);
@@ -180,26 +180,26 @@ position: fixed;
 
 /* junior level*/
 
-.jun{
-    margin:85px 80px;
+.mark{
+    margin:85px 40px;
     justify-content:space-between ;
     display: inline-block;
     border: 2px  rgba(141, 85, 21,0.8);
     float :left;
     width: 250px;
     border-radius: 20px ;
-    background-color: rgba(141, 85, 21, 0.18);
+    background-color: rgba(141, 85, 21, 0.25);
     
 
 }
-.jun img{
+.mark img{
     width: 200px;
     margin:23px ;
     border: 1px groove rgba(196, 188, 180, .7);;
     border-radius: 20px ;
     background-color: rgba(196, 188, 180, .7);
 }
-.jun p{
+.mark p{
     width:225px;
     text-align: center;
     display: block;
@@ -210,13 +210,13 @@ position: fixed;
     background-color: rgba(197, 172, 146, 0.3);
     color: rgb(172, 104, 27);
 } 
-.jun img:hover{
+.mark img:hover{
     width: 210px;
     margin-right:10px ;
     cursor:pointer;
 
 }
-.jun p:hover{
+.mark p:hover{
     width: 210px;
     margin-right:10px ;
     color: rgba(141, 85, 21,.8);
@@ -224,4 +224,47 @@ position: fixed;
 
 }
 
+.dev{
+    margin:85px  50px;
+    justify-content:space-between ;
+    display: inline-block;
+    border: 2px  rgba(141, 85, 21,0.8);
+    float :left;
+    width: 250px;
+    border-radius: 20px ;
+    background-color: rgba(141, 85, 21, 0.15);
+    
+
+}
+.dev img{
+    width: 200px;
+    margin:23px ;
+    border: 1px groove rgba(196, 188, 180, .7);;
+    border-radius: 20px ;
+    background-color: rgba(196, 188, 180, .7);
+}
+.dev p{
+    width:225px;
+    text-align: center;
+    display: block;
+    border: 1px   ;
+    margin-left: 10px;
+    line-height: 25px;
+    border-radius: 20px ;
+    background-color: rgba(197, 172, 146, 0.2);
+    color: rgb(172, 104, 27);
+} 
+.dev img:hover{
+    width: 210px;
+    margin-right:10px ;
+    cursor:pointer;
+
+}
+.dev p:hover{
+    width: 210px;
+    margin-right:10px ;
+    color: rgba(141, 85, 21,.8);
+    cursor:pointer;
+
+}
 

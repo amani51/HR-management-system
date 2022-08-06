@@ -3,9 +3,10 @@ var id=999;
 //getting elements by the name of tag 
 const div=document.getElementsByTagName("div");
 // create an object 
-const sen =[];
-const mid =[];
-const jun =[];
+const administration =[];
+const finance =[];
+const marketing =[];
+const development =[];
 const allEmployees=[];
 function Employees(employeeID,fullName,department,level,image,salary){
     this.employeeID=employeeID;
@@ -46,28 +47,35 @@ Employees.prototype.render=function(){
     employeeDepartment.textContent=`Department: ${this.department} -Level: ${this.level}`;
     const employeeSalary=document.createElement('p')
     employeeSalary.textContent= this.Salary;
-    if (this.level=="Senior"){
+    if (this.department=="Administration"){
         div[0].appendChild(Image);
         div[0].appendChild(employeeNameId);
         div[0].appendChild(employeeDepartment);
         div[0].appendChild(employeeDepartment);
         div[0].appendChild(employeeSalary);
-        sen.push(this)
-    }else if(this.level=="Mid-Senior"){
+        administration.push(this)
+    }else if(this.department=="Finance"){
         div[1].appendChild(Image);
         div[1].appendChild(employeeNameId);
         div[1].appendChild(employeeDepartment);
         div[1].appendChild(employeeDepartment);
         div[1].appendChild(employeeSalary);
-        mid.push(this)
-
-    }else{
+        finance.push(this)
+    }else if(this.department=="Marketing"){
         div[2].appendChild(Image);
         div[2].appendChild(employeeNameId);
         div[2].appendChild(employeeDepartment);
         div[2].appendChild(employeeDepartment);
         div[2].appendChild(employeeSalary);
+        marketing.push(this)
 
+    }else{
+        div[3].appendChild(Image);
+        div[3].appendChild(employeeNameId);
+        div[3].appendChild(employeeDepartment);
+        div[3].appendChild(employeeDepartment);
+        div[3].appendChild(employeeSalary);
+        development.push(this)
     }
 }
 
